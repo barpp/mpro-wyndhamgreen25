@@ -1,0 +1,31 @@
+.btn {
+  border: 0;
+  background-color: transparent;
+
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+
+  border-radius: 1.25rem;
+  font: var(--fw-md) var(--fs-md)/1.5rem var(--ff-poppins);
+
+  cursor: pointer;
+
+  background: var(--green-color);
+  color: var(--text-color-white);
+
+  padding: 1rem 7.81rem;
+}
+
+.btn:hover {
+  background-color: #203D03;
+}
+
+@media (width >= 80em) {
+  .btn {
+    height: 4rem;
+    font: var(--fw-md) 1.5rem/1.5rem var(--ff-poppins);
+  }
+}

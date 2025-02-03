@@ -22,7 +22,7 @@
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   margin-inline: auto;
-  border: solid violet;
+  /* border: solid violet; */
 }
 
 .desktop-only {
@@ -32,6 +32,36 @@
 .even-colums {
   display: grid;
   gap: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-1\.5 {
+  gap: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.green-color {
+  height: 3.125rem;
+  background-color: var(--green-color);
+}
+
+.selo5 {
+  width: 9rem;
+  height: 9rem;
 }
 
 @media (width >= 80em) {
@@ -46,5 +76,10 @@
   .even-colums {
     grid-auto-flow: column;
     grid-auto-columns: auto;
+  }
+
+  .selo5 {
+    width: 16rem;
+    height: 16rem;
   }
 }
